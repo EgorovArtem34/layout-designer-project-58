@@ -1,34 +1,130 @@
-/** CSS STYLE **/
+:root {
+  --white: #fff;
+  --transparent-white: #d7ccc0;
+  --light: #f5f4f0;
+  --basic: #fe8a02;
+  --basic-dark: #42413c;
+  --dark: #2a2626;
+  --transparent-dark: #908d8b;
+  --brown: #b09a81;
+  --blue: #1085c5;
+}
 
-.h1,
+* {
+  box-sizing: border-box;
+  margin: 0;
+  padding: 0;
+}
+
+@font-face {
+  font-family: OpenSans;
+  src: url("../assets/fonts/OpenSans-Regular.ttf") format("truetype");
+}
+
+@font-face {
+  font-family: 'OpenSans-Bold';
+  src: url("../assets/fonts/OpenSans-Bold.ttf") format("truetype");
+}
+
+@font-face {
+  font-family: Neucha;
+  src: url("../assets/fonts/Neucha-Regular.ttf") format("truetype");
+}
+
+body {
+  width: 100vw;
+}
+
+h1,
 h2,
 h3 {
+  font-family: Neucha, serif;
   line-height: 1.2em;
 }
 
-.h1 {
+h1 {
   font-size: 72px;
 }
 
-.h2 {
+h2 {
   font-size: 60px;
 }
 
-.h3 {
+h3 {
   font-size: 34px;
 }
 
-.container {
-  max-width: 1110px;
-  margin: 0 auto;
+.header {
+  position: relative;
+  overflow: hidden;
 }
 
-.section {
+.container {
+  position: relative;
+  max-width: 1110px;
+  margin: 0 auto;
+  z-index: 10;
+}
+
+.ptb-100 {
   padding: 100px 0;
+}
+
+.background {
+  background-color: var(--light);
+}
+
+.background::before {
+  position: absolute;
+  top: 0;
+  left: 0;
+
+  width: 100%;
+  height: 100%;
+  background-image: url('../images/background.png');
+  background-repeat: no-repeat;
+  background-size: cover;
+  opacity: 0.1;
+  content: "";
+}
+
+.header-image {
+  position: absolute;
+  height: 525px;
+  top: -40px;
+  right: -270px;
+}
+
+.header-text {
+  width: 540px;
+  line-height: 1.6em;
+}
+
+.btn {
+  width: 148px;
+  height: 49px;
+  color: var(--white);
+  background-color: var(--basic);
+  padding: 12px 24px;
+  text-decoration: none;
+  border: 0;
+  cursor: pointer;
+}
+
+.btn-header {
+  margin-top: 34px;
+  font-family: 'OpenSans-Bold';
 }
 
 .white {
   color: #fff;
+}
+
+.header-desc {
+  display: flex;
+  gap: 30px;
+  margin-top: 200px;
+  font-family: OpenSans;
 }
 
 .white-50 {
@@ -39,8 +135,8 @@ h3 {
   color: #f5f4f0;
 }
 
-.primary {
-  color: #fe8a02;
+.orange {
+  color: var(--basic);
 }
 
 .primary-dark {
