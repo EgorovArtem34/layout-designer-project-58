@@ -61,13 +61,10 @@ h3 {
 
 .container {
   position: relative;
-  max-width: 1110px;
+  width: 1110px;
   margin: 0 auto;
-  z-index: 10;
-}
-
-.ptb-100 {
   padding: 100px 0;
+  z-index: 10;
 }
 
 .background {
@@ -91,7 +88,7 @@ h3 {
 .header-image {
   position: absolute;
   height: 525px;
-  top: -40px;
+  top: 54px;
   right: -270px;
 }
 
@@ -116,6 +113,10 @@ h3 {
   font-family: 'OpenSans-Bold';
 }
 
+.video {
+  text-align: center;
+}
+
 .white {
   color: #fff;
 }
@@ -125,6 +126,19 @@ h3 {
   gap: 30px;
   margin-top: 200px;
   font-family: OpenSans;
+}
+
+.video-text {
+  margin-top: 27px;
+  font-family: OpenSans;
+}
+
+.video {
+  filter: drop-shadow(0 16px 32px rgba(0 0 0 / 15%));
+}
+
+.mt30 {
+  margin-top: 30px;
 }
 
 .white-50 {
