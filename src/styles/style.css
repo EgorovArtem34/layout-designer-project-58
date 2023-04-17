@@ -113,7 +113,7 @@ h3 {
   font-family: 'OpenSans-Bold';
 }
 
-.video {
+.media {
   text-align: center;
 }
 
@@ -126,6 +126,10 @@ h3 {
   gap: 30px;
   margin-top: 200px;
   font-family: OpenSans;
+}
+
+.nav {
+  margin-top: -186px;
 }
 
 .video-text {
@@ -145,8 +149,27 @@ h3 {
   color: #d7ccc0;
 }
 
-.light {
-  color: #f5f4f0;
+.nav-card {
+  display: inline-block;
+  width: 350px;
+  height: 323px;
+  margin: 0 30px 20px 0;
+}
+
+.nav-card:nth-child(3n) {
+  margin-right: 0;
+}
+
+.nav-header {
+  font-size: 52px;
+}
+
+.mt100 {
+  margin-top: 100px;
+}
+
+.bg-light {
+  background-color: var(--light);
 }
 
 .orange {
@@ -157,8 +180,8 @@ h3 {
   color: #42413c;
 }
 
-.dark {
-  color: #2a2626;
+.bg-dark {
+  background-color: var(--dark);
 }
 
 .dark-50 {
@@ -171,4 +194,28 @@ h3 {
 
 .blue {
   color: #1085c5;
+}
+
+.card-num {
+  font-family: Neucha;
+  font-size: 64px;
+  margin-top: 10px;
+}
+
+.nav-wrap {
+  padding: 24px;
+}
+
+.card-title {
+  margin-top: 40px;
+}
+
+.card-text {
+  margin-top: 16px;
+}
+
+.d-flex {
+  display: flex;
+  flex-direction: row;
+  flex-wrap: wrap;
 }
