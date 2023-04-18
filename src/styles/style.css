@@ -55,6 +55,12 @@ h3 {
   font-size: 34px;
 }
 
+ul {
+  margin-left: 30px;
+  margin-top: 20px;
+  margin-bottom: 20px;
+}
+
 .header {
   position: relative;
   overflow: hidden;
