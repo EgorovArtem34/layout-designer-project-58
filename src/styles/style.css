@@ -59,6 +59,10 @@ h3 {
   overflow: hidden;
 }
 
+.container-header {
+  font-weight: 400;
+}
+
 .container {
   position: relative;
   width: 1110px;
