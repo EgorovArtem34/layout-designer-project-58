@@ -241,6 +241,13 @@ h3 {
   margin-top: 16px;
 }
 
+.text {
+  font-size: 16px;
+  font-family: OpenSans, sans-serif;
+  line-height: 1.6;
+  color: var(--dark);
+}
+
 .d-flex {
   display: flex;
 }
