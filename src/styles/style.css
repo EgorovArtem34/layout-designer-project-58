@@ -47,6 +47,7 @@ h1 {
 }
 
 h2 {
+  color: var(--basic);
   font-size: 60px;
 }
 
