@@ -151,7 +151,7 @@ h3 {
 }
 
 .white-50 {
-  color: #d7ccc0;
+  color: var(--transparent-white);
 }
 
 .nav-card {
@@ -185,6 +185,10 @@ h3 {
   background-color: var(--dark);
 }
 
+.bg-white {
+  background-color: var(--white);
+}
+
 .orange {
   color: var(--basic);
 }
@@ -201,7 +205,7 @@ h3 {
   color: #908d8b;
 }
 
-.brown {
+.brown-text {
   color: #b09a81;
 }
 
@@ -246,7 +250,12 @@ h3 {
 }
 
 .section-text {
+  padding-top: 30px;
   font-size: 34px;
+}
+
+.section-header {
+  font-weight: 400;
 }
 
 .section-footer {
