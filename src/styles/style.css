@@ -68,6 +68,7 @@ h3 {
 }
 
 .background {
+  position: relative;
   background-color: var(--light);
 }
 
@@ -145,6 +146,10 @@ h3 {
   margin-top: 30px;
 }
 
+.white-text {
+  color: var(--white);
+}
+
 .white-50 {
   color: #d7ccc0;
 }
@@ -172,6 +177,14 @@ h3 {
   background-color: var(--light);
 }
 
+.bg-brown {
+  background-color: var(--brown);
+}
+
+.bg-dark {
+  background-color: var(--dark);
+}
+
 .orange {
   color: var(--basic);
 }
@@ -180,8 +193,8 @@ h3 {
   color: #42413c;
 }
 
-.bg-dark {
-  background-color: var(--dark);
+.dark-text {
+  color: var(--dark);
 }
 
 .dark-50 {
@@ -198,6 +211,7 @@ h3 {
 
 .card-num {
   font-family: Neucha;
+  line-height: 1;
   font-size: 64px;
   margin-top: 10px;
 }
@@ -216,6 +230,41 @@ h3 {
 
 .d-flex {
   display: flex;
-  flex-direction: row;
+}
+
+.flex-wrap {
   flex-wrap: wrap;
+}
+
+.section {
+  font-family: Neucha;
+  gap: 30px;
+}
+
+.section-span {
+  font-size: 24px;
+}
+
+.section-text {
+  font-size: 34px;
+}
+
+.section-footer {
+  padding-top: 100px;
+}
+
+.section-footer-header {
+  padding: 5px 0 5px 10px;
+  font-family: 'OpenSans-Bold';
+  font-size: 14px;
+}
+
+.pt20 {
+  padding-top: 20px;
+}
+
+.section-footer-text {
+  font-family: OpenSans;
+  line-height: 1.6;
+  font-size: 16px;
 }
